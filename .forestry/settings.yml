@@ -4,6 +4,17 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: '213213'
+  create: all
+  match: "**/*"
+- type: document
+  path: user/andy/desktop
+  label: Wheres my shit
+  match: "**/*"
+- type: heading
+  label: My Stuff
 - type: heading
   label: Content
 - type: document
